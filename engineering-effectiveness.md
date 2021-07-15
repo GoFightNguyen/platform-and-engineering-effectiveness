@@ -8,7 +8,7 @@ A portion of the gap is caused by operations, which has mostly been addressed th
 Another portion of that gap is caused by poor DXs: poor DX => low engineering effectiveness.
 
 
-## How bad DX looks like
+## How bad DX looks
 When engineers are bound to bad DXs, the gap is widened.
 
 Here are common patterns of a bad DX:
