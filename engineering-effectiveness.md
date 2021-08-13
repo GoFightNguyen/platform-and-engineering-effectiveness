@@ -40,7 +40,7 @@ Broken down, it looks like:
 - qualities of a dependency (such as a BC or InnerSource library)
   - documentation and API spec discoverable through a dev portal
   - dependency team has an engineer doing support, making it easy to get help
-- focus for hours with an interruption
+- focus for hours without an interruption
 - ability to break the way one desires (ping-pong, drink, walk, etc)
 - commits pass through a number of automated checks before being deployed to production
   - metrics
