@@ -118,3 +118,8 @@ Their cognitive load will be small and their focus will be able to stay on conti
   - does not manage too many platform products at once
   - most of the time spent investing in the improvement of the platform, not toil such as incidents and unplanned work
   - reduce context switching
+
+
+# [How to Build an Internal Developer Platform from Those Who Have Done It](https://www.infoworld.com/article/3611369/how-to-build-an-internal-developer-platform-from-those-who-have-done-it.html)
+
+> Goal: To abstract away cumbersome infrastructure decisions for software developers, easing the operations burden on overstretched devops teams.
