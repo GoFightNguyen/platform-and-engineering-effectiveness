@@ -123,3 +123,33 @@ Their cognitive load will be small and their focus will be able to stay on conti
 # [How to Build an Internal Developer Platform from Those Who Have Done It](https://www.infoworld.com/article/3611369/how-to-build-an-internal-developer-platform-from-those-who-have-done-it.html)
 
 > Goal: To abstract away cumbersome infrastructure decisions for software developers, easing the operations burden on overstretched devops teams.
+
+# [Service Catalogs Explained](https://humanitec.com/blog/spotify-backstage-service-catalog)
+With a growing number of tools requested by different development teams and an ever-expanding base of services...setups are characterized by an increasing lack of transparency and visibility.
+
+## What is a Service Catalog
+Here, a service catalog is a means of centralizing all services and applications that are important within an organization.
+
+Every service catalog has these 4 core elements:
+- ownership info and other metadata
+  - ownership, tech stack, repo, current version, last update, documentation, etc
+  - enables anyone to discover whether a required service is already available and to then coordinate directly with the respective responsible team
+- service templating
+  - enables engineers to get started right away
+- service usage
+  - which service is consumed by which applications
+  - enables the owning team to learn about usage
+- service versioning
+  - which versions of a particular service are used by which applications and in which environments
+  - enables notifying dependent teams of issues and only the affected environments or apps can be handled
+
+# [Backstage Software Catalog](https://backstage.io/docs/features/software-catalog/software-catalog-overview)
+A centralized system tracking ownership and metadata for all software in the ecosystem (services, websites, libraries, data pipelines, etc).
+
+Why:
+- help teams manage and maintain the software they own by providing a uniform view of all their software (anything the team catalogs)
+- makes all the software, and who owns it, discoverable
+
+Any kind of software should be registered, even if not owned/maintained by your company; it is useful to still create components for tracking ownership.
+
+> Teams are responsible for maintaining the metadata about their components
