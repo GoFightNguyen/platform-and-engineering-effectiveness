@@ -153,3 +153,41 @@ Why:
 Any kind of software should be registered, even if not owned/maintained by your company; it is useful to still create components for tracking ownership.
 
 > Teams are responsible for maintaining the metadata about their components
+
+# [Strategies for Adopting](https://backstage.io/docs/overview/adopting)
+
+The value of a dev-portal is realized when it becomes _THE_ dev-portal.
+
+The central team owning the dev-portal has 4 primary objectives:
+- maintain and operate the product
+- drive adoption of customers (engineers)
+- ensure organizational best practices for software development are encoded into a set of Software Templates
+- evangelize it as a central platform (a platform of platforms) towards other infrastructure/platform teams
+
+## Internal Evangelization
+
+The dev-portal is a "platform of platforms," a marketplace between infra/platform teams and end-users.
+
+Customers include end-users of the platform as well as _contributing teams_ of the platform.
+
+_Contributing teams_ should be able to autonomously deliver value directly to their customers.
+This is primarily done by building plugins.
+Therefore, contributing teams should treat their plugins as, or part of, the products they maintain.
+
+Some tactics for evangelizing to contributing teams:
+- lunch & learns (seminars) showing how to build a plugin
+- embedding knowledgeable plugin developers on the team just getting started
+- hackathons
+- show-and-tell for anyone to present their plugins
+- provide metrics to contributing teams
+- proactively identify new plugins and reach out to teams
+
+## KPIs and metrics
+
+Look at the doc for ideas of whether a dev-portal have had a successful impact on software engineers.
+
+Some proxy metrics to validate the success of _the_ dev-portal:
+- number of teams that have contributed at least one plugin
+- number of total plugins
+- % of contributions coming from outside the central dev-portal team
+- traditional metrics such as visits and page views
